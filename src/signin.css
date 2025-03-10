@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    --primary: #a84448;
+    --white: #ffffff
+}
+
+*,html,body,p{
+    font-family: "Cabin", sans-serif;
+}
+li.slick-active div {
+    width: 1.2cqi !important;
+    background: #9C3C40 !important;
+}
+.fw-400{
+    font-weight: 400;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+.fw-700{
+    font-weight: 700;
+}
+.text_p{
+    font-size: 1.9cqi;
+}
+.tangerine{
+    background: #f6d9c9;
+}
+.solid_btn_primary{
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+    padding: 0.5cqi !important;
+    border-radius: 0.5cqi !important;
+}
+.round-1{
+    border-radius: 1cqi;
+}
+
+.text_mute_p{
+    color: #85898F;
+    font-size: 1cqi;
+}
+
+.fs-20{
+    font-size: 1cqi !important;
+}
+.fs-16{
+    font-size: 0.8cqi !important;
+}
+.w-20{
+    width: 2.2cqi !important;
+}
+.input-group-text{
+    background-color: #fff !important;
+    border-right: none !important;
+    padding: 0.7cqi !important;
+    border-top-left-radius: 0.5cqi !important;
+    border-bottom-left-radius: 0.5cqi !important;
+}
+.input-group.mg-b-1 input{
+    border-left: none !important;
+    padding: 0.7cqi;
+    padding-left: 0;
+    border-top-right-radius: 0.5cqi !important;
+    border-bottom-right-radius: 0.5cqi !important;
+}
+.input-group.mg-b-1 input:focus{
+    box-shadow: none;
+    border-color: #dee2e6;
+}
+.w-30{
+    width: 30vw;
+}
+.h-1{
+    height: 1cqi !important;
+}
+
+.mg-t-1{
+    margin-top: 1cqi !important;
+}
+.mg-b-05{
+    margin-bottom: 0.5cqi !important;
+}
+.mg-b-1{
+    margin-bottom: 1cqi !important;
+}
+
+.pd-b-1{
+    padding-bottom: 1cqi !important;
+}
+
+
+.mg-t-2{
+    margin-top: 2cqi !important;
+}
+.mg-b-2{
+    margin-bottom: 2cqi !important;
+}
+.mg-y-5{
+    margin-top: 5cqi !important;
+    margin-bottom: 5cqi !important;
+}
+.mg-y-3{
+    margin-top: 4cqi !important;
+    margin-bottom: 4cqi !important;
+}
+.pd-y-3{
+    padding-top: 4cqi !important;
+    padding-bottom: 4cqi !important;
+}
+
+.pd-y-5{
+    padding-top: 5cqi !important;
+    padding-bottom: 5cqi !important;
+}
+
+.a-red{
+    color: var(--primary);
+}
+.s-h-full{
+    height: 100dvh;
+}
+
+.img-h-3{
+    height: 2.5cqi;
+}
+
+a{
+    text-decoration: none !important;
+}
