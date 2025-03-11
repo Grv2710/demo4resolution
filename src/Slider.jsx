@@ -92,7 +92,7 @@ function CustomSlider({ numberOfCards }) {
       <Slider {...settings}>
         {numberOfCards.map((index) => (
           <div className="d-flex flex-column align-items-center" key={index} style={{ padding: "20px", textAlign: "center", background: "#f0f0f0" }}>
-            <Signin1Slider/>
+            <div className="d-none d-md-block"><Signin1Slider/></div>
             <p className="mg-t-1 w-30 text_p text-center">Revolutionising the way you discover
             & buy your dream home</p>
           </div>

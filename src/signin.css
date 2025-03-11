@@ -32,6 +32,8 @@ li.slick-active div {
     background-color: var(--primary) !important;
     color: var(--white) !important;
     padding: 0.5cqi !important;
+}
+.br-05{
     border-radius: 0.5cqi !important;
 }
 .round-1{
@@ -71,7 +73,7 @@ li.slick-active div {
     border-color: #dee2e6;
 }
 .w-30{
-    width: 30vw;
+    width: 30vw !important;
 }
 .h-1{
     height: 1cqi !important;
@@ -130,3 +132,64 @@ li.slick-active div {
 a{
     text-decoration: none !important;
 }
+
+.m-bg{
+    background-image: url(/src/assets/mobile_bg.jpg) !important;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-h-1{
+    height: 1cqi;
+}
+
+.slick-dots ul{
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .br-05 {
+        border-radius: 1.5cqi !important;
+    }
+    .br-1{
+        border-radius: 2.5cqi !important;
+    }
+    .text_p{
+        font-size: 5cqi;
+    }
+    .fs-20{
+        font-size: 4cqi !important;
+    }
+    .w-30 {
+        width: 70vw !important;
+    }
+    .w-50 {
+        width: 50vw !important;
+    }
+    li div {
+        width: 2.2cqi !important;
+        height: 1cqi !important;
+        margin: 0 !important;
+        margin-left: 0.5cqi !important;
+        margin-right: 0.5cqi !important;
+    }
+    li.slick-active div {
+        width: 4.2cqi !important;
+        height: 1cqi !important;
+        margin: 0 !important;
+        margin-left: 0.5cqi !important;
+        margin-right: 0.5cqi !important;
+    }
+    .solid_btn_primary {
+        padding: 2cqi !important;
+    }
+    .mg-b-1{
+        margin-bottom: 2cqi !important;
+    }
+    .pd-y-5{
+        padding-top: 15cqi !important;
+        padding-bottom: 15cqi !important;
+    }
+  }
